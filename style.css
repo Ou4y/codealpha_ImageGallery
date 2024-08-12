@@ -1,13 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Pacifico&display=swap');
+
+
+body{
+    background-color: black;
+}
 img{
     width: 400px;
     object-fit: cover;
     padding-left: 50px;
 }
 
-.slider-images{
-  
+
+h1{
+    font-size: 100px;
+    color: beige;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 72px 100px;
+    margin-bottom: 300px;
+}
+.slider-div{
     object-fit:cover;
     display: flex;
     overflow: auto;
     white-space: nowrap;
+    animation: infinite;
+}
+
+.slider-images{
+    border-radius: 30px;
 }
