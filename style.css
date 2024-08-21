@@ -20,6 +20,12 @@ h1{
     text-shadow: 72px 100px;
     margin-bottom: 300px;
 }
+
+.marquee{
+    font-size: 100px;
+    color: blue;
+    background-color: aliceblue;
+}
 .slider-div{
     object-fit:cover;
     display: flex;
